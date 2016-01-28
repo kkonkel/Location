@@ -15,22 +15,42 @@ public class findVacation
 					    String next1 = userInput1.nextLine();
 					    	if(next1.equals("warm"))
 					    		{
-					    			Brochure.brochure.remove(2);
-					    			Brochure.brochure.remove(5);
-					    			Brochure.brochure.remove(6);
-					    			Brochure.brochure.remove(7);
-					    			Brochure.brochure.remove(8);
-					    			Brochure.brochure.remove(9);
-					    			Brochure.brochure.remove(10);
+					    			
+					    			Scanner userInput2 = new Scanner (System.in);
+					    			System.out.println("How many people are you planning on going with? 1-6");
+					    			String next2 = userInput2.nextLine();
+					    			
+					    				if(next2.equals("1"))
+					    					{
+					    						Brochure.printWarmOne();
+					    					}
+					    					
+					    				else if(next2.equals("2"))
+					    					{
+					    						System.out.println("You should go to Fiji!!");
+					    					}
+					    				else if(next2.equals("3"))
+					    					{
+					    						System.out.println("You should go to Hawaii!!");
+					    					}
+					    				else if(next2.equals("4"))
+					    					{
+					    						System.out.println("You should go to Mexico!!");
+					    					}
+					    				else if(next2.equals("5"))
+					    					{
+					    						System.out.println("You should go to Florida!!");
+					    					}
+					    				else if(next2.equals("6"))
+					    					{
+					    						System.out.println("You should go to California!!");
+					    					}
+					    				
+					    		
 					    		}
 					    	else if(next1.equals("cold"))
 					    		{
-					    			Brochure.brochure.remove(0);
-					    			Brochure.brochure.remove(1);
-					    			Brochure.brochure.remove(3);
-					    			Brochure.brochure.remove(4);
-					    			Brochure.brochure.remove(11);
-					    			Brochure.brochure.remove(12);
+					    		    Brochure.printIfCold();
 					    		}
 					    				
 					    					

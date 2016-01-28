@@ -2,13 +2,13 @@
 public class Location
 	{
 		private static String temperature;
-		private static String location;
+		private static String place;
 		private static int amount;
 		
-		public Location(String t, String l, int a)
+		public Location(String t, String p, int a)
 		{
 			t=temperature;
-			l=location;
+			p=place;
 			a=amount;
 		}
 
@@ -22,14 +22,14 @@ public class Location
 				Location.temperature = temperature;
 			}
 
-		public static String getLocation()
+		public static String getPlace()
 			{
-				return location;
+				return place;
 			}
 
-		public static void setLocation(String location)
+		public static void setPlace(String place)
 			{
-				Location.location = location;
+				Location.place = place;
 			}
 
 		public static int getAmount()
