@@ -20,28 +20,30 @@ public class Brochure
 		}
 	public static void printIfWarm()
 		{
-			Brochure.brochure.remove(2);
-			Brochure.brochure.remove(5);
-			Brochure.brochure.remove(6);
-			Brochure.brochure.remove(7);
-			Brochure.brochure.remove(8);
-			Brochure.brochure.remove(9);
-			Brochure.brochure.remove(10);
+			brochure.remove(2);
+			brochure.remove(5);
+			brochure.remove(6);
+			brochure.remove(7);
+			brochure.remove(8);
+			brochure.remove(9);
+			brochure.remove(10);
 			
 		}
 	public static void printIfCold()
 	{
-		Brochure.brochure.remove(0);
-		Brochure.brochure.remove(1);
-		Brochure.brochure.remove(3);
-		Brochure.brochure.remove(4);
-		Brochure.brochure.remove(11);
-		Brochure.brochure.remove(12);
+		brochure.remove(0);
+		brochure.remove(1);
+		brochure.remove(3);
+		brochure.remove(4);
+		brochure.remove(11);
+		brochure.remove(12);
+		
 	}
 	public static void printWarmOne()
 	{
 		
-		System.out.println(Brochure.brochure.get(11).getPlace());
+		System.out.println(brochure.get(11).getLocation());
+		 
 			
 	}
 	
